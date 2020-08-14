@@ -71,10 +71,14 @@ img {
   border: none;
   outline: none;
 }
-/* .promo-text-wrapper {
+.promo {
+  margin: 95px 0;
+  display: flex;
+  justify-content: space-between;
+}
+.promo-text-wrapper {
   width: 465px;
 }
-
 .promo-heading {
   font-weight: bold;
   font-size: 30px;
@@ -83,4 +87,8 @@ img {
 .promo-txt {
   font-size: 16px;
   line-height: 24px;
-} */
+}
+
+.promo-video {
+  border-radius: 5px;
+}
