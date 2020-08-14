@@ -1,4 +1,4 @@
-html {
+* {
   box-sizing: border-box;
 }
 *::before,
@@ -76,6 +76,12 @@ img {
   display: flex;
   justify-content: space-between;
 }
+.divider {
+  width: 300px;
+  height: 3px;
+  background-color: #eee;
+  border: none;
+}
 .promo-text-wrapper {
   width: 465px;
 }
@@ -91,4 +97,36 @@ img {
 
 .promo-video {
   border-radius: 5px;
+}
+/* SERVICES */
+.services {
+  justify-content: center;
+}
+.services-promo-txt {
+  width: 719px;
+  text-align: center;
+  margin: auto;
+}
+.services-list {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+.service {
+  list-style-type: none;
+  text-align: center;
+  width: 320px;
+  padding:  24px 55px;
+  margin: 15px;
+  box-shadow: 0px 8px 8px rgba(0, 0, 0, 0.1);
+  border-radius: 5px;   
+}
+.service img {
+  justify-content: center;
+}
+.service-name {
+  margin: 16px;
+}
+.service-info {
+  margin: 6px 0;
 }
