@@ -71,7 +71,7 @@ img {
   border: none;
   outline: none;
 }
-.promo {
+.promo-contents {
   margin: 95px 0;
   display: flex;
   justify-content: space-between;
@@ -129,4 +129,69 @@ img {
 }
 .service-info {
   margin: 6px 0;
+}
+.service-footer {
+  text-align: center;
+  margin-bottom: 65px;
+}
+.blue-link {
+  margin-left: 16px;
+   color: #00BAFC;
+   text-decoration: none;
+   border-bottom: 2px solid #00BAFC;;
+}
+
+/* how-to-work-us */
+.how-to-work-us {
+  margin: 55px 0;
+}
+.work-us-promotxt {
+  width: 719px;
+  text-align: center;
+  margin: auto;
+}
+.step {
+  margin: 30px;
+  display: flex;
+  align-items: center;
+}
+.promo-txts {
+  margin-left: 30px;
+}
+.step-promo-heading {
+  font-size: 20px;
+  line-height: 130%;
+}
+.step-promo-txt {
+  font-size: 16px;
+  line-height: 24px;
+}
+.order {
+  background-color: #00BAFC;
+  padding: 60px 10px;
+  align-items: center;
+  justify-content: center;
+}
+.order-promo-txts {
+  color: #fff;
+  width: 720px;
+  text-align: center;
+  margin: 0 auto;
+}
+.order-form {
+  width: 350px;
+  margin: 20px auto;
+  background-color: #fff;
+  padding: 24px;
+  border-radius: 5px;
+}
+
+.input {
+  width: 300px;
+  background-color: #F3F3F3;
+  border-radius: 5px;
+  border: none;
+  padding: 16px;
+  font-size: 16px;
+  margin: 16px 0;
 }
